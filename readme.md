@@ -37,6 +37,10 @@ To use CarousHero, include the following files in your project:
    </div>
    ```
 
+2. **CSS**
+
+  use the css that i've added in the repo as a starting point for the layout
+
 2. **JavaScript**
    ```html
    <script src="./index.js"></script>
