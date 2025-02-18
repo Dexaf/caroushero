@@ -9,7 +9,7 @@ CarousHero is a simple and customizable JavaScript carousel that allows automati
 - Responsive behavior
 - Smooth animations
 
-## Installation
+## Installation example
 
 To use CarousHero, include the following files in your project:
 
@@ -18,6 +18,7 @@ To use CarousHero, include the following files in your project:
    ```html
    <div id="hero-carousel">
    	<div id="hero-item-container">
+   		<!-- Add more hero-item for additional slides -->
    		<article class="hero-item animate-1s">
    			<img src="https://cataas.com/cat" alt="beautiful cat" draggable="false" />
    			<div class="background"></div>
@@ -31,7 +32,6 @@ To use CarousHero, include the following files in your project:
    				</section>
    			</div>
    		</article>
-   		<!-- Add more articles for additional slides -->
    	</div>
    	<div id="hero-item-counter"></div>
    </div>
