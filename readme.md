@@ -2,6 +2,8 @@
 
 CarousHero is a simple and customizable JavaScript carousel that allows automatic sliding and drag-based navigation.
 
+https://github.com/user-attachments/assets/db4fce7b-7368-4c9f-89b4-15a8ebbc1999
+
 ## Features
 
 - Automatic sliding with a customizable interval
