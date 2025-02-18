@@ -1,6 +1,6 @@
-# CarousHero - JavaScript Carousel
+# CarousHero - The JavaScript Carousel with NO EXTERNAL DEPENDENCIES
 
-CarousHero is a simple and customizable JavaScript carousel that allows automatic sliding and drag-based navigation. It is easy to integrate into any webpage.
+CarousHero is a simple and customizable JavaScript carousel that allows automatic sliding and drag-based navigation.
 
 ## Features
 
