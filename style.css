@@ -1,0 +1,114 @@
+#hero-carousel {
+  position: relative;
+}
+
+#hero-item-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow: hidden;
+
+  .hero-item {
+    /* THIS LINE IS WHAT YOU NEED FROM THE hero-item CLASS */
+    min-width: 100%;
+
+    height: 60vh;
+    position: relative;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 40%;
+
+      background: linear-gradient(90deg,
+          rgba(0, 0, 0, 0.7) 0%,
+          rgba(0, 0, 0, 0.7) 60%,
+          rgba(0, 0, 0, 0) 100%);
+
+      z-index: 1;
+    }
+
+    .content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 65%;
+      padding: 1rem;
+      z-index: 2;
+
+      display: flex;
+      flex-direction: column;
+      place-content: space-between;
+
+      .text {
+
+        h2,
+        p {
+          color: white;
+        }
+
+        h2 {
+          margin-bottom: 1rem;
+        }
+
+        p {
+          text-align: justify;
+          font-size: 1.2rem;
+          letter-spacing: 0.7px;
+        }
+      }
+    }
+
+    .cta {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      padding-bottom: 1.5rem;
+
+      * {
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+#hero-item-counter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 3;
+  height: 1.5rem;
+  background-color: #000000bf;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  place-content: center;
+  column-gap: 1rem;
+
+  .hero-item-counter-dot {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #aaaaaa;
+
+    &.active {
+      background-color: #ffffff;
+    }
+  }
+}
+
+.animate-1s {
+  transition: all 1s;
+}
