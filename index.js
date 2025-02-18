@@ -80,7 +80,7 @@ class CarousHero {
 
   handleMovementEvent(e) {
     if (this.initValue === "ND") this.initValue = e.clientX;
-    //calculate drag delta and rotate it to match cursot direction
+    //calculate drag delta and rotate it to match cursor direction
     this.dragDelta = (this.initValue - e.clientX) * -1;
 
     for (let i = 0; i < this.heroItems.length; i++) {
